@@ -1,10 +1,16 @@
-Set-StrictMode -Version Latest
-$ErrorActionPreference = "Stop"
-
 param(
     [Parameter(ValueFromRemainingArguments = $true)]
     [string[]]$SetupArgs
 )
+
+Set-StrictMode -Version Latest
+$ErrorActionPreference = "Stop"
+
+if (($null -eq $SetupArgs -or $SetupArgs.Count -eq 0) -and $null -ne $MyInvocation.UnboundArguments -and $MyInvocation.UnboundArguments.Count -gt 0) {
+    $SetupArgs = @($MyInvocation.UnboundArguments | ForEach-Object { [string]$_ })
+} elseif (($null -eq $SetupArgs -or $SetupArgs.Count -eq 0) -and $args.Count -gt 0) {
+    $SetupArgs = @($args | ForEach-Object { [string]$_ })
+}
 
 $UpstreamRepo = if ([string]::IsNullOrWhiteSpace($env:GIT_SWEATY_UPSTREAM_REPO)) {
     "aspain/git-sweaty"
@@ -32,6 +38,14 @@ function Read-YesNo {
         [string]$Prompt,
         [string]$Default = "Y"
     )
+
+    $assumeYes = $null
+    if (-not [string]::IsNullOrWhiteSpace($env:GIT_SWEATY_BOOTSTRAP_ASSUME_YES)) {
+        $assumeYes = $env:GIT_SWEATY_BOOTSTRAP_ASSUME_YES.Trim().ToLowerInvariant()
+    }
+    if ($assumeYes -in @("1", "true", "yes", "y")) {
+        return $true
+    }
 
     $suffix = if ($Default -eq "Y") { "[Y/n]" } else { "[y/N]" }
     while ($true) {
@@ -94,7 +108,7 @@ function Resolve-CommandPath {
 function Resolve-WingetPath {
     Refresh-Path
 
-    $commandPath = Resolve-CommandPath @("winget.exe", "winget")
+    $commandPath = Resolve-CommandPath @("winget", "winget.exe")
     if ($commandPath) {
         return $commandPath
     }
@@ -146,7 +160,12 @@ function Invoke-WingetInstall {
 function Resolve-GhPath {
     Refresh-Path
 
-    $commandPath = Resolve-CommandPath @("gh.exe", "gh")
+    $explicitGhPath = $env:GIT_SWEATY_BOOTSTRAP_GH_PATH
+    if (-not [string]::IsNullOrWhiteSpace($explicitGhPath) -and (Test-Path $explicitGhPath)) {
+        return $explicitGhPath
+    }
+
+    $commandPath = Resolve-CommandPath @("gh", "gh.exe")
     if ($commandPath) {
         return $commandPath
     }
@@ -162,6 +181,31 @@ function Resolve-GhPath {
     }
 
     return $null
+}
+
+function Invoke-WebRequestWithRetry {
+    param(
+        [string]$Uri,
+        [string]$OutFile,
+        [int]$MaxAttempts = 5,
+        [int]$DelaySeconds = 2
+    )
+
+    $lastError = $null
+    for ($attempt = 1; $attempt -le $MaxAttempts; $attempt++) {
+        try {
+            Invoke-WebRequest -UseBasicParsing -Uri $Uri -OutFile $OutFile
+            return
+        } catch {
+            $lastError = $_.Exception
+            if ($attempt -eq $MaxAttempts) {
+                throw $lastError
+            }
+
+            Write-WarnLine "Download attempt $attempt of $MaxAttempts failed. Retrying in $DelaySeconds seconds..."
+            Start-Sleep -Seconds $DelaySeconds
+        }
+    }
 }
 
 function Ensure-GhPath {
@@ -205,9 +249,25 @@ function Test-PythonRuntime {
 function Resolve-PythonRuntime {
     Refresh-Path
 
+    $explicitPythonPath = $env:GIT_SWEATY_BOOTSTRAP_PYTHON_PATH
+    if (-not [string]::IsNullOrWhiteSpace($explicitPythonPath) -and (Test-PythonRuntime -CommandPath $explicitPythonPath -BaseArgs @())) {
+        return [pscustomobject]@{
+            Command = $explicitPythonPath
+            BaseArgs = @()
+        }
+    }
+
+    $explicitPyLauncherPath = $env:GIT_SWEATY_BOOTSTRAP_PY_LAUNCHER_PATH
+    if (-not [string]::IsNullOrWhiteSpace($explicitPyLauncherPath) -and (Test-PythonRuntime -CommandPath $explicitPyLauncherPath -BaseArgs @("-3"))) {
+        return [pscustomobject]@{
+            Command = $explicitPyLauncherPath
+            BaseArgs = @("-3")
+        }
+    }
+
     foreach ($commandPath in @(
-        (Resolve-CommandPath @("py.exe", "py")),
-        (Resolve-CommandPath @("python.exe", "python"))
+        (Resolve-CommandPath @("py", "py.exe")),
+        (Resolve-CommandPath @("python", "python.exe"))
     )) {
         if (-not $commandPath) {
             continue
@@ -313,15 +373,19 @@ function Ensure-GhAuthenticated {
 
 function Get-SetupArgValue {
     param(
-        [string[]]$Args,
+        [string[]]$SetupArgs,
         [string]$Name
     )
 
-    for ($i = 0; $i -lt $Args.Count; $i++) {
-        $item = $Args[$i]
+    if ($null -eq $SetupArgs -or $SetupArgs.Count -eq 0) {
+        return $null
+    }
+
+    for ($i = 0; $i -lt $SetupArgs.Count; $i++) {
+        $item = $SetupArgs[$i]
         if ($item -eq $Name) {
-            if ($i + 1 -lt $Args.Count) {
-                return $Args[$i + 1]
+            if ($i + 1 -lt $SetupArgs.Count) {
+                return $SetupArgs[$i + 1]
             }
             return $null
         }
@@ -381,6 +445,21 @@ function Get-ExistingForkRepo {
         [string]$Login,
         [string]$UpstreamRepo
     )
+
+    $defaultForkRepo = "$Login/$($UpstreamRepo.Split('/')[1])"
+    & $GhPath repo view $defaultForkRepo *> $null
+    if ($LASTEXITCODE -eq 0) {
+        return $defaultForkRepo
+    }
+
+    $forkQuery = ".[] | select(.owner.login == `"$Login`") | .full_name"
+    $forkMatches = Invoke-GhText $GhPath @("api", "repos/$UpstreamRepo/forks?per_page=100", "--paginate", "--jq", $forkQuery)
+    foreach ($forkMatch in @($forkMatches -split "\r?\n")) {
+        $trimmedForkMatch = $forkMatch.Trim()
+        if (-not [string]::IsNullOrWhiteSpace($trimmedForkMatch)) {
+            return $trimmedForkMatch
+        }
+    }
 
     $repos = Invoke-GhJson $GhPath @("repo", "list", $Login, "--fork", "--limit", "1000", "--json", "nameWithOwner,parent")
     foreach ($repo in @($repos)) {
@@ -451,10 +530,10 @@ function Resolve-TargetRepository {
     param(
         [string]$GhPath,
         [string]$UpstreamRepo,
-        [string[]]$Args
+        [string[]]$SetupArgs
     )
 
-    $explicitRepo = Get-SetupArgValue -Args $Args -Name "--repo"
+    $explicitRepo = Get-SetupArgValue -SetupArgs $SetupArgs -Name "--repo"
     if (-not [string]::IsNullOrWhiteSpace($explicitRepo)) {
         Ensure-RepoAccess $GhPath $explicitRepo
         return $explicitRepo
@@ -476,7 +555,8 @@ function Resolve-TargetRepository {
     }
 
     Write-Info "Creating your fork of $UpstreamRepo..."
-    & $GhPath repo fork $UpstreamRepo --clone=false --remote=false
+    # Omit explicit false boolean flags for broad gh CLI compatibility.
+    & $GhPath repo fork $UpstreamRepo
     if ($LASTEXITCODE -ne 0) {
         $existingFork = Get-ExistingForkRepo -GhPath $GhPath -Login $login -UpstreamRepo $UpstreamRepo
         if (-not [string]::IsNullOrWhiteSpace($existingFork)) {
@@ -520,18 +600,21 @@ function Invoke-OnlineSetup {
         $PythonRuntime,
         [string]$UpstreamRepo,
         [string]$TargetRepo,
-        [string[]]$Args
+        [string[]]$SetupArgs
     )
 
-    $defaultBranch = Get-DefaultBranch -GhPath $GhPath -Repo $UpstreamRepo
-    $archiveUrl = "https://github.com/$UpstreamRepo/archive/refs/heads/$defaultBranch.zip"
+    $archiveUrl = $env:GIT_SWEATY_BOOTSTRAP_ARCHIVE_URL
+    if ([string]::IsNullOrWhiteSpace($archiveUrl)) {
+        $defaultBranch = Get-DefaultBranch -GhPath $GhPath -Repo $UpstreamRepo
+        $archiveUrl = "https://github.com/$UpstreamRepo/archive/refs/heads/$defaultBranch.zip"
+    }
     $tempRoot = New-TemporaryDirectory
     $archivePath = Join-Path $tempRoot "source.zip"
     $extractDir = Join-Path $tempRoot "source"
 
     try {
         Write-Info "Downloading setup source bundle from $archiveUrl"
-        Invoke-WebRequest -UseBasicParsing -Uri $archiveUrl -OutFile $archivePath
+        Invoke-WebRequestWithRetry -Uri $archiveUrl -OutFile $archivePath
 
         Expand-Archive -Path $archivePath -DestinationPath $extractDir -Force
         $sourceRoot = Get-ChildItem -Path $extractDir -Directory | Select-Object -First 1
@@ -546,14 +629,40 @@ function Invoke-OnlineSetup {
 
         Write-Info ""
         Write-Info "Launching online setup..."
+        $env:GIT_SWEATY_BOOTSTRAP_GH_PATH = $GhPath
+        $ghDir = Split-Path -Path $GhPath -Parent
+        if (-not [string]::IsNullOrWhiteSpace($ghDir)) {
+            $pathEntries = @($env:Path -split ";" | Where-Object { -not [string]::IsNullOrWhiteSpace($_) })
+            $ghDirNormalized = $ghDir.TrimEnd("\")
+            $ghOnPath = $false
+            foreach ($entry in $pathEntries) {
+                if ($entry.TrimEnd("\") -ieq $ghDirNormalized) {
+                    $ghOnPath = $true
+                    break
+                }
+            }
+            if (-not $ghOnPath) {
+                $env:Path = "$ghDir;$env:Path"
+            }
+        }
         $pythonArgs = @() + $PythonRuntime.BaseArgs + @($setupScript)
-        if ([string]::IsNullOrWhiteSpace((Get-SetupArgValue -Args $Args -Name "--repo"))) {
+        if ([string]::IsNullOrWhiteSpace((Get-SetupArgValue -SetupArgs $SetupArgs -Name "--repo"))) {
             $pythonArgs += @("--repo", $TargetRepo)
         }
-        $pythonArgs += $Args
+        if ($null -ne $SetupArgs -and $SetupArgs.Count -gt 0) {
+            $pythonArgs += $SetupArgs
+        }
 
-        & $PythonRuntime.Command @pythonArgs
-        return $LASTEXITCODE
+        Push-Location $sourceRoot.FullName
+        try {
+            & $PythonRuntime.Command @pythonArgs
+            if ($null -ne $LASTEXITCODE) {
+                return [int]$LASTEXITCODE
+            }
+            return 0
+        } finally {
+            Pop-Location
+        }
     } finally {
         Remove-Item -Path $tempRoot -Recurse -Force -ErrorAction SilentlyContinue
     }
@@ -565,7 +674,7 @@ try {
     $pythonRuntime = Ensure-PythonRuntime
     $ghPath = Ensure-GhPath
     Ensure-GhAuthenticated $ghPath
-    $targetRepo = Resolve-TargetRepository -GhPath $ghPath -UpstreamRepo $UpstreamRepo -Args $SetupArgs
+    $targetRepo = Resolve-TargetRepository -GhPath $ghPath -UpstreamRepo $UpstreamRepo -SetupArgs $SetupArgs
 
     Write-Info ""
     Write-Info "Setup summary:"
@@ -576,9 +685,14 @@ try {
         exit 0
     }
 
-    $status = Invoke-OnlineSetup -GhPath $ghPath -PythonRuntime $pythonRuntime -UpstreamRepo $UpstreamRepo -TargetRepo $targetRepo -Args $SetupArgs
+    $status = Invoke-OnlineSetup -GhPath $ghPath -PythonRuntime $pythonRuntime -UpstreamRepo $UpstreamRepo -TargetRepo $targetRepo -SetupArgs $SetupArgs
     exit $status
 } catch {
-    Write-Error $_.Exception.Message
+    $message = if ($null -ne $_ -and $null -ne $_.Exception -and -not [string]::IsNullOrWhiteSpace($_.Exception.Message)) {
+        $_.Exception.Message
+    } else {
+        "Setup failed."
+    }
+    Write-Error $message
     exit 1
 }
