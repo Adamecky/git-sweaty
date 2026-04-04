@@ -1484,6 +1484,24 @@
       "type": "Walk",
       "url": "https://www.strava.com/activities/17903200438",
       "year": 2026
+    },
+    {
+      "date": "2026-04-04",
+      "hour": 9,
+      "name": "Parkrun Warszawa-Br\u00f3dno #539",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/17970505906",
+      "year": 2026
+    },
+    {
+      "date": "2026-04-04",
+      "hour": 9,
+      "name": "Cool down",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/17970648842",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -2751,6 +2769,16 @@
           "distance": 6279.200000000001,
           "elevation_gain": 7.0,
           "moving_time": 1744.0
+        },
+        "2026-04-04": {
+          "activity_ids": [
+            "17970505906",
+            "17970648842"
+          ],
+          "count": 2,
+          "distance": 6658.200000000001,
+          "elevation_gain": 15.0,
+          "moving_time": 1822.0
         }
       },
       "Walk": {
@@ -2833,7 +2861,7 @@
       }
     }
   },
-  "generated_at": "2026-04-03T15:37:16.050285+00:00",
+  "generated_at": "2026-04-04T15:28:12.621908+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
