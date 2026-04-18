@@ -1547,6 +1547,33 @@
       "type": "Run",
       "url": "https://www.strava.com/activities/18062078243",
       "year": 2026
+    },
+    {
+      "date": "2026-04-17",
+      "hour": 18,
+      "name": "Evening Rock Climb",
+      "subtype": "RockClimbing",
+      "type": "RockClimbing",
+      "url": "https://www.strava.com/activities/18148327550",
+      "year": 2026
+    },
+    {
+      "date": "2026-04-18",
+      "hour": 11,
+      "name": "Lunch Run",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/18155252838",
+      "year": 2026
+    },
+    {
+      "date": "2026-04-18",
+      "hour": 12,
+      "name": "9. Skynet Dziesi\u0105tka Babicka",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/18156063526",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -2643,6 +2670,15 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 3656.0
+        },
+        "2026-04-17": {
+          "activity_ids": [
+            "18148327550"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 4432.0
         }
       },
       "Run": {
@@ -2845,6 +2881,16 @@
           "distance": 7629.4,
           "elevation_gain": 6.0,
           "moving_time": 2212.0
+        },
+        "2026-04-18": {
+          "activity_ids": [
+            "18155252838",
+            "18156063526"
+          ],
+          "count": 2,
+          "distance": 11671.8,
+          "elevation_gain": 26.6,
+          "moving_time": 2977.0
         }
       },
       "Walk": {
@@ -2927,7 +2973,7 @@
       }
     }
   },
-  "generated_at": "2026-04-17T15:57:22.461855+00:00",
+  "generated_at": "2026-04-18T15:34:53.914689+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",

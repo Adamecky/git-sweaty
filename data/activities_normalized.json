@@ -2234,5 +2234,44 @@
     "start_date_local": "2026-04-11T09:53:53Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-04-17",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "18148327550",
+    "moving_time": 4432.0,
+    "name": "Evening Rock Climb",
+    "raw_activity_type": "RockClimbing",
+    "raw_type": "RockClimbing",
+    "start_date_local": "2026-04-17T18:53:24Z",
+    "type": "RockClimbing",
+    "year": 2026
+  },
+  {
+    "date": "2026-04-18",
+    "distance": 1637.8,
+    "elevation_gain": 6.0,
+    "id": "18155252838",
+    "moving_time": 450.0,
+    "name": "Lunch Run",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-04-18T11:43:08Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-04-18",
+    "distance": 10034.0,
+    "elevation_gain": 20.6,
+    "id": "18156063526",
+    "moving_time": 2527.0,
+    "name": "9. Skynet Dziesi\u0105tka Babicka",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-04-18T12:00:44Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
