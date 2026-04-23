@@ -1583,6 +1583,15 @@
       "type": "Run",
       "url": "https://www.strava.com/activities/18186984544",
       "year": 2026
+    },
+    {
+      "date": "2026-04-22",
+      "hour": 19,
+      "name": "Herbaciany bieg",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/18216033321",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -2909,6 +2918,15 @@
           "distance": 17064.4,
           "elevation_gain": 56.0,
           "moving_time": 5545.0
+        },
+        "2026-04-22": {
+          "activity_ids": [
+            "18216033321"
+          ],
+          "count": 1,
+          "distance": 10012.3,
+          "elevation_gain": 9.0,
+          "moving_time": 2914.0
         }
       },
       "Walk": {
@@ -2991,7 +3009,7 @@
       }
     }
   },
-  "generated_at": "2026-04-22T16:07:16.427446+00:00",
+  "generated_at": "2026-04-23T16:27:09.653327+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
