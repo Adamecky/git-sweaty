@@ -2299,5 +2299,31 @@
     "start_date_local": "2026-04-22T19:39:12Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-04-25",
+    "distance": 1447.5,
+    "elevation_gain": 2.0,
+    "id": "18247210751",
+    "moving_time": 480.0,
+    "name": "Na Parkrun",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-04-25T08:42:57Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-04-25",
+    "distance": 5013.0,
+    "elevation_gain": 9.0,
+    "id": "18247491318",
+    "moving_time": 1241.0,
+    "name": "Parkrun Br\u00f3dno #542",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-04-25T09:09:52Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
