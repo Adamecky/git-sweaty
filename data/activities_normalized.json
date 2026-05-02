@@ -2364,5 +2364,44 @@
     "start_date_local": "2026-04-29T19:38:15Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-05-01",
+    "distance": 11698.4,
+    "elevation_gain": 27.0,
+    "id": "18336466706",
+    "moving_time": 3545.0,
+    "name": "Kabacki m\u0142otek",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-05-01T18:56:40Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-05-02",
+    "distance": 1418.8,
+    "elevation_gain": 2.0,
+    "id": "18341489352",
+    "moving_time": 526.0,
+    "name": "Na parkrun",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-05-02T08:41:48Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-05-02",
+    "distance": 4993.4,
+    "elevation_gain": 6.0,
+    "id": "18341763634",
+    "moving_time": 1177.0,
+    "name": "Parkrun Warszawa-Br\u00f3dno #543",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-05-02T09:10:51Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
