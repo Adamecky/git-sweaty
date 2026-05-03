@@ -2403,5 +2403,31 @@
     "start_date_local": "2026-05-02T09:10:51Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-05-03",
+    "distance": 7071.6,
+    "elevation_gain": 23.0,
+    "id": "18358992407",
+    "moving_time": 2725.0,
+    "name": "32 \u0141askarzewski bieg Konstytucji 3 Maja",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-05-03T13:34:06Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-05-03",
+    "distance": 6955.1,
+    "elevation_gain": 37.0,
+    "id": "18358992452",
+    "moving_time": 2310.0,
+    "name": "Na start biegu trzeba jako\u015b dobiec \ud83d\ude02",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-05-03T12:27:09Z",
+    "type": "Run",
+    "year": 2026
   }
 ]

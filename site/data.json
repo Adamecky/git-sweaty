@@ -1664,6 +1664,24 @@
       "type": "Run",
       "url": "https://www.strava.com/activities/18341763634",
       "year": 2026
+    },
+    {
+      "date": "2026-05-03",
+      "hour": 13,
+      "name": "32 \u0141askarzewski bieg Konstytucji 3 Maja",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/18358992407",
+      "year": 2026
+    },
+    {
+      "date": "2026-05-03",
+      "hour": 12,
+      "name": "Na start biegu trzeba jako\u015b dobiec \ud83d\ude02",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/18358992452",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -3047,6 +3065,16 @@
           "distance": 6412.2,
           "elevation_gain": 8.0,
           "moving_time": 1703.0
+        },
+        "2026-05-03": {
+          "activity_ids": [
+            "18358992407",
+            "18358992452"
+          ],
+          "count": 2,
+          "distance": 14026.7,
+          "elevation_gain": 60.0,
+          "moving_time": 5035.0
         }
       },
       "Walk": {
@@ -3129,7 +3157,7 @@
       }
     }
   },
-  "generated_at": "2026-05-02T15:42:34.130283+00:00",
+  "generated_at": "2026-05-03T15:43:33.803490+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
