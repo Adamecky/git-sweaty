@@ -2429,5 +2429,18 @@
     "start_date_local": "2026-05-03T12:27:09Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-05-06",
+    "distance": 11447.8,
+    "elevation_gain": 46.0,
+    "id": "18397289181",
+    "moving_time": 3609.0,
+    "name": "Takie o przed prac\u0105",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-05-06T11:53:59Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
