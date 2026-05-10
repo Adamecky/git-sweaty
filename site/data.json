@@ -1709,6 +1709,15 @@
       "type": "Walk",
       "url": "https://www.strava.com/activities/18438394424",
       "year": 2026
+    },
+    {
+      "date": "2026-05-10",
+      "hour": 8,
+      "name": "Kurde, du\u017ca ta ka\u0142u\u017ca",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/18448104788",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -3120,6 +3129,15 @@
           "distance": 5002.9,
           "elevation_gain": 10.0,
           "moving_time": 1205.0
+        },
+        "2026-05-10": {
+          "activity_ids": [
+            "18448104788"
+          ],
+          "count": 1,
+          "distance": 22341.8,
+          "elevation_gain": 82.0,
+          "moving_time": 7196.0
         }
       },
       "Walk": {
@@ -3211,7 +3229,7 @@
       }
     }
   },
-  "generated_at": "2026-05-09T15:48:06.386029+00:00",
+  "generated_at": "2026-05-10T15:50:09.067357+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
