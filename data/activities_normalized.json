@@ -2481,5 +2481,18 @@
     "start_date_local": "2026-05-10T08:17:07Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-05-13",
+    "distance": 10803.8,
+    "elevation_gain": 7.0,
+    "id": "18494990596",
+    "moving_time": 3215.0,
+    "name": "Na Herbatk\u0119 zaspa\u0142em, ale swoje zrobi\u0142em",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-05-13T20:20:28Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
