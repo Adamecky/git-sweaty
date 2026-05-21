@@ -1772,6 +1772,15 @@
       "type": "Run",
       "url": "https://www.strava.com/activities/18584662681",
       "year": 2026
+    },
+    {
+      "date": "2026-05-20",
+      "hour": 19,
+      "name": "Herbatkowy bieg",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/18585796291",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -3240,12 +3249,13 @@
         },
         "2026-05-20": {
           "activity_ids": [
-            "18584662681"
+            "18584662681",
+            "18585796291"
           ],
-          "count": 1,
-          "distance": 1530.7,
-          "elevation_gain": 2.0,
-          "moving_time": 566.0
+          "count": 2,
+          "distance": 11984.400000000001,
+          "elevation_gain": 12.0,
+          "moving_time": 3530.0
         }
       },
       "Walk": {
@@ -3337,7 +3347,7 @@
       }
     }
   },
-  "generated_at": "2026-05-20T17:53:04.994279+00:00",
+  "generated_at": "2026-05-21T17:29:30.061684+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
