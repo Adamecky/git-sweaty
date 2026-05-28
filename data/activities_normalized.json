@@ -2624,5 +2624,31 @@
     "start_date_local": "2026-05-26T23:43:02Z",
     "type": "Walk",
     "year": 2026
+  },
+  {
+    "date": "2026-05-28",
+    "distance": 1554.4,
+    "elevation_gain": 78.0,
+    "id": "18691185386",
+    "moving_time": 2249.0,
+    "name": "Afternoon Walk",
+    "raw_activity_type": "Walk",
+    "raw_type": "Walk",
+    "start_date_local": "2026-05-28T17:44:49Z",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-05-28",
+    "distance": 3616.1,
+    "elevation_gain": 5.0,
+    "id": "18691240609",
+    "moving_time": 4461.0,
+    "name": "Spacer w porze lunchu",
+    "raw_activity_type": "Walk",
+    "raw_type": "Walk",
+    "start_date_local": "2026-05-28T12:58:28Z",
+    "type": "Walk",
+    "year": 2026
   }
 ]
