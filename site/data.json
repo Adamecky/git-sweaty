@@ -1880,6 +1880,15 @@
       "type": "Walk",
       "url": "https://www.strava.com/activities/18728409621",
       "year": 2026
+    },
+    {
+      "date": "2026-06-01",
+      "hour": 11,
+      "name": "W\u0119dr\u00f3wka w porze lunchu",
+      "subtype": "Hike",
+      "type": "Hike",
+      "url": "https://www.strava.com/activities/18740160332",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -2891,6 +2900,15 @@
           "distance": 4013.4,
           "elevation_gain": 289.0,
           "moving_time": 4930.0
+        },
+        "2026-06-01": {
+          "activity_ids": [
+            "18740160332"
+          ],
+          "count": 1,
+          "distance": 4038.3,
+          "elevation_gain": 229.0,
+          "moving_time": 3150.0
         }
       },
       "Ride": {
@@ -3515,7 +3533,7 @@
       }
     }
   },
-  "generated_at": "2026-05-31T16:03:51.866874+00:00",
+  "generated_at": "2026-06-01T19:54:15.348938+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",

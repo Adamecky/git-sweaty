@@ -2715,5 +2715,18 @@
     "start_date_local": "2026-05-31T13:34:07Z",
     "type": "Walk",
     "year": 2026
+  },
+  {
+    "date": "2026-06-01",
+    "distance": 4038.3,
+    "elevation_gain": 229.0,
+    "id": "18740160332",
+    "moving_time": 3150.0,
+    "name": "W\u0119dr\u00f3wka w porze lunchu",
+    "raw_activity_type": "Hike",
+    "raw_type": "Hike",
+    "start_date_local": "2026-06-01T11:56:26Z",
+    "type": "Hike",
+    "year": 2026
   }
 ]
