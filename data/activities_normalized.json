@@ -2728,5 +2728,31 @@
     "start_date_local": "2026-06-01T11:56:26Z",
     "type": "Hike",
     "year": 2026
+  },
+  {
+    "date": "2026-06-02",
+    "distance": 8636.2,
+    "elevation_gain": 6.0,
+    "id": "18753539311",
+    "moving_time": 2699.0,
+    "name": "Odpoczynek po wyje\u017adzie",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-06-02T11:43:39Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-02",
+    "distance": 31593.9,
+    "elevation_gain": 105.0,
+    "id": "18759388439",
+    "moving_time": 7029.0,
+    "name": "Popo\u0142udniowa jazda na rowerze",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-06-02T15:55:28Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]

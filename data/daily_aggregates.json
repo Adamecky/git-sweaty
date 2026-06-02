@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T19:54:15.341389+00:00",
+  "generated_at": "2026-06-02T18:36:36.302142+00:00",
   "years": {
     "2025": {
       "Hike": {
@@ -1094,6 +1094,15 @@
           "distance": 92845.3,
           "elevation_gain": 225.0,
           "moving_time": 13045.0
+        },
+        "2026-06-02": {
+          "activity_ids": [
+            "18759388439"
+          ],
+          "count": 1,
+          "distance": 31593.9,
+          "elevation_gain": 105.0,
+          "moving_time": 7029.0
         }
       },
       "RockClimbing": {
@@ -1512,6 +1521,15 @@
           "distance": 15718.6,
           "elevation_gain": 56.0,
           "moving_time": 5230.0
+        },
+        "2026-06-02": {
+          "activity_ids": [
+            "18753539311"
+          ],
+          "count": 1,
+          "distance": 8636.2,
+          "elevation_gain": 6.0,
+          "moving_time": 2699.0
         }
       },
       "Walk": {

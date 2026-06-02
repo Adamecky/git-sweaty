@@ -1889,6 +1889,24 @@
       "type": "Hike",
       "url": "https://www.strava.com/activities/18740160332",
       "year": 2026
+    },
+    {
+      "date": "2026-06-02",
+      "hour": 11,
+      "name": "Odpoczynek po wyje\u017adzie",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/18753539311",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-02",
+      "hour": 15,
+      "name": "Popo\u0142udniowa jazda na rowerze",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/18759388439",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -2985,6 +3003,15 @@
           "distance": 92845.3,
           "elevation_gain": 225.0,
           "moving_time": 13045.0
+        },
+        "2026-06-02": {
+          "activity_ids": [
+            "18759388439"
+          ],
+          "count": 1,
+          "distance": 31593.9,
+          "elevation_gain": 105.0,
+          "moving_time": 7029.0
         }
       },
       "RockClimbing": {
@@ -3403,6 +3430,15 @@
           "distance": 15718.6,
           "elevation_gain": 56.0,
           "moving_time": 5230.0
+        },
+        "2026-06-02": {
+          "activity_ids": [
+            "18753539311"
+          ],
+          "count": 1,
+          "distance": 8636.2,
+          "elevation_gain": 6.0,
+          "moving_time": 2699.0
         }
       },
       "Walk": {
@@ -3533,7 +3569,7 @@
       }
     }
   },
-  "generated_at": "2026-06-01T19:54:15.348938+00:00",
+  "generated_at": "2026-06-02T18:36:36.309151+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
