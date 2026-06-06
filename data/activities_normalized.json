@@ -2806,5 +2806,57 @@
     "start_date_local": "2026-06-05T12:16:45Z",
     "type": "Walk",
     "year": 2026
+  },
+  {
+    "date": "2026-06-05",
+    "distance": 732.4,
+    "elevation_gain": 0.0,
+    "id": "18800015673",
+    "moving_time": 593.0,
+    "name": "Evening Walk",
+    "raw_activity_type": "Walk",
+    "raw_type": "Walk",
+    "start_date_local": "2026-06-05T19:49:38Z",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-06",
+    "distance": 4871.2,
+    "elevation_gain": 10.0,
+    "id": "18805485804",
+    "moving_time": 1190.0,
+    "name": "Parkrun Sosnowiec #253",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-06-06T09:06:50Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-06",
+    "distance": 2448.5,
+    "elevation_gain": 6.0,
+    "id": "18805817270",
+    "moving_time": 815.0,
+    "name": "Poranne bieganie",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-06-06T09:38:12Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-06",
+    "distance": 6887.1,
+    "elevation_gain": 23.0,
+    "id": "18807612401",
+    "moving_time": 5756.0,
+    "name": "Poranny spacer",
+    "raw_activity_type": "Walk",
+    "raw_type": "Walk",
+    "start_date_local": "2026-06-06T10:28:35Z",
+    "type": "Walk",
+    "year": 2026
   }
 ]

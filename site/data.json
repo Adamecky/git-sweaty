@@ -1943,6 +1943,42 @@
       "type": "Walk",
       "url": "https://www.strava.com/activities/18796218684",
       "year": 2026
+    },
+    {
+      "date": "2026-06-05",
+      "hour": 19,
+      "name": "Evening Walk",
+      "subtype": "Walk",
+      "type": "Walk",
+      "url": "https://www.strava.com/activities/18800015673",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-06",
+      "hour": 9,
+      "name": "Parkrun Sosnowiec #253",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/18805485804",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-06",
+      "hour": 9,
+      "name": "Poranne bieganie",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/18805817270",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-06",
+      "hour": 10,
+      "name": "Poranny spacer",
+      "subtype": "Walk",
+      "type": "Walk",
+      "url": "https://www.strava.com/activities/18807612401",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -3484,6 +3520,16 @@
           "distance": 10675.0,
           "elevation_gain": 13.0,
           "moving_time": 3396.0
+        },
+        "2026-06-06": {
+          "activity_ids": [
+            "18805485804",
+            "18805817270"
+          ],
+          "count": 2,
+          "distance": 7319.7,
+          "elevation_gain": 16.0,
+          "moving_time": 2005.0
         }
       },
       "Walk": {
@@ -3612,12 +3658,22 @@
         },
         "2026-06-05": {
           "activity_ids": [
-            "18796218684"
+            "18796218684",
+            "18800015673"
+          ],
+          "count": 2,
+          "distance": 5567.799999999999,
+          "elevation_gain": 32.0,
+          "moving_time": 5749.0
+        },
+        "2026-06-06": {
+          "activity_ids": [
+            "18807612401"
           ],
           "count": 1,
-          "distance": 4835.4,
-          "elevation_gain": 32.0,
-          "moving_time": 5156.0
+          "distance": 6887.1,
+          "elevation_gain": 23.0,
+          "moving_time": 5756.0
         }
       },
       "Workout": {
@@ -3633,7 +3689,7 @@
       }
     }
   },
-  "generated_at": "2026-06-05T17:13:36.370524+00:00",
+  "generated_at": "2026-06-06T16:04:26.527056+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
