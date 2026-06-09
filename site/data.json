@@ -2024,6 +2024,33 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/18835070161",
       "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "hour": 21,
+      "name": "Z pracy do domu",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/18841637357",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-09",
+      "hour": 8,
+      "name": "Do pracy",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/18846470245",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-09",
+      "hour": 17,
+      "name": "Z pracy",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/18852408024",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -3132,12 +3159,23 @@
         },
         "2026-06-08": {
           "activity_ids": [
-            "18835070161"
+            "18835070161",
+            "18841637357"
           ],
-          "count": 1,
-          "distance": 12985.8,
-          "elevation_gain": 79.0,
-          "moving_time": 2046.0
+          "count": 2,
+          "distance": 25403.6,
+          "elevation_gain": 131.0,
+          "moving_time": 3805.0
+        },
+        "2026-06-09": {
+          "activity_ids": [
+            "18846470245",
+            "18852408024"
+          ],
+          "count": 2,
+          "distance": 34066.1,
+          "elevation_gain": 166.0,
+          "moving_time": 4782.0
         }
       },
       "RockClimbing": {
@@ -3755,7 +3793,7 @@
       }
     }
   },
-  "generated_at": "2026-06-08T17:49:58.952946+00:00",
+  "generated_at": "2026-06-09T17:23:20.160175+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
