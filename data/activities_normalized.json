@@ -2962,5 +2962,18 @@
     "start_date_local": "2026-06-09T17:08:44Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-06-10",
+    "distance": 13066.6,
+    "elevation_gain": 9.0,
+    "id": "18869050974",
+    "moving_time": 3632.0,
+    "name": "Herbatkowy bieg",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-06-10T19:16:39Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
