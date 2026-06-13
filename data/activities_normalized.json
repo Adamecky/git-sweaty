@@ -2975,5 +2975,31 @@
     "start_date_local": "2026-06-10T19:16:39Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-06-12",
+    "distance": 7797.0,
+    "elevation_gain": 34.0,
+    "id": "18894503522",
+    "moving_time": 3321.0,
+    "name": "Wieczorek z Moni\u0105",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-06-12T20:24:24Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-13",
+    "distance": 10728.2,
+    "elevation_gain": 9.0,
+    "id": "18899327980",
+    "moving_time": 3218.0,
+    "name": "Parkrun Br\u00f3dno #549",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-06-13T08:43:37Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
