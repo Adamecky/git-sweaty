@@ -3001,5 +3001,18 @@
     "start_date_local": "2026-06-13T08:43:37Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-06-14",
+    "distance": 15415.7,
+    "elevation_gain": 108.0,
+    "id": "18915234776",
+    "moving_time": 4546.0,
+    "name": "Niedzielny long",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-06-14T11:34:33Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
