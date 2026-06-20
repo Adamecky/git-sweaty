@@ -3079,5 +3079,44 @@
     "start_date_local": "2026-06-18T12:14:04Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-06-19",
+    "distance": 7476.1,
+    "elevation_gain": 28.0,
+    "id": "18988205608",
+    "moving_time": 8304.0,
+    "name": "Wieczorny spacer",
+    "raw_activity_type": "Walk",
+    "raw_type": "Walk",
+    "start_date_local": "2026-06-19T18:44:50Z",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-19",
+    "distance": 961.2,
+    "elevation_gain": 1.0,
+    "id": "18988438806",
+    "moving_time": 641.0,
+    "name": "Nocny spacer",
+    "raw_activity_type": "Walk",
+    "raw_type": "Walk",
+    "start_date_local": "2026-06-19T21:59:46Z",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-20",
+    "distance": 7805.2,
+    "elevation_gain": 17.0,
+    "id": "18992969033",
+    "moving_time": 2142.0,
+    "name": "Parkrun Warszawa Br\u00f3dno #550",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-06-20T08:56:02Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
