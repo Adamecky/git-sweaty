@@ -3118,5 +3118,31 @@
     "start_date_local": "2026-06-20T08:56:02Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-06-20",
+    "distance": 3196.6,
+    "elevation_gain": 5.0,
+    "id": "19002426386",
+    "moving_time": 2847.0,
+    "name": "Night Walk",
+    "raw_activity_type": "Walk",
+    "raw_type": "Walk",
+    "start_date_local": "2026-06-20T22:13:05Z",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-21",
+    "distance": 16115.3,
+    "elevation_gain": 10.0,
+    "id": "19005555148",
+    "moving_time": 5058.0,
+    "name": "Co to za temperatura? Nie do biegania",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-06-21T07:28:43Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
