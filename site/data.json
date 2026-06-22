@@ -2177,6 +2177,15 @@
       "type": "Run",
       "url": "https://www.strava.com/activities/19005555148",
       "year": 2026
+    },
+    {
+      "date": "2026-06-21",
+      "hour": 19,
+      "name": "Wieczorny spacer",
+      "subtype": "Walk",
+      "type": "Walk",
+      "url": "https://www.strava.com/activities/19015033238",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -4006,6 +4015,15 @@
           "distance": 3196.6,
           "elevation_gain": 5.0,
           "moving_time": 2847.0
+        },
+        "2026-06-21": {
+          "activity_ids": [
+            "19015033238"
+          ],
+          "count": 1,
+          "distance": 10736.9,
+          "elevation_gain": 10.0,
+          "moving_time": 10061.0
         }
       },
       "Workout": {
@@ -4021,7 +4039,7 @@
       }
     }
   },
-  "generated_at": "2026-06-21T16:27:54.031139+00:00",
+  "generated_at": "2026-06-22T18:43:30.580811+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
