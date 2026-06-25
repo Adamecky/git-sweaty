@@ -3157,5 +3157,18 @@
     "start_date_local": "2026-06-21T19:02:28Z",
     "type": "Walk",
     "year": 2026
+  },
+  {
+    "date": "2026-06-24",
+    "distance": 39831.8,
+    "elevation_gain": 192.0,
+    "id": "19052859430",
+    "moving_time": 6717.0,
+    "name": "Do pi\u0105tku nie mog\u0119 biega\u0107 :(",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-06-24T17:54:22Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
