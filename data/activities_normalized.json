@@ -3183,5 +3183,18 @@
     "start_date_local": "2026-06-27T08:58:50Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-06-27",
+    "distance": 115741.0,
+    "elevation_gain": 489.0,
+    "id": "19088384409",
+    "moving_time": 18287.0,
+    "name": "Pop\u0142ywa\u0107 w rzece",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-06-27T11:04:17Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
