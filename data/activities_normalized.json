@@ -3274,5 +3274,18 @@
     "start_date_local": "2026-07-01T19:39:24Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-07-03",
+    "distance": 6450.4,
+    "elevation_gain": 27.0,
+    "id": "19158292961",
+    "moving_time": 1155.0,
+    "name": "Na ciufci\u0119 do Wro",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-07-03T04:37:36Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
