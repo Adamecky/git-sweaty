@@ -3287,5 +3287,57 @@
     "start_date_local": "2026-07-03T04:37:36Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-07-03",
+    "distance": 28809.8,
+    "elevation_gain": 126.0,
+    "id": "19166749419",
+    "moving_time": 7684.0,
+    "name": "Lunch Ride",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-07-03T11:27:05Z",
+    "type": "Ride",
+    "year": 2026
+  },
+  {
+    "date": "2026-07-03",
+    "distance": 5066.0,
+    "elevation_gain": 12.0,
+    "id": "19167240470",
+    "moving_time": 1368.0,
+    "name": "Evening Ride",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-07-03T20:43:38Z",
+    "type": "Ride",
+    "year": 2026
+  },
+  {
+    "date": "2026-07-03",
+    "distance": 4030.7,
+    "elevation_gain": 18.0,
+    "id": "19168182337",
+    "moving_time": 1052.0,
+    "name": "Nocna jazda na rowerze",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-07-03T22:20:38Z",
+    "type": "Ride",
+    "year": 2026
+  },
+  {
+    "date": "2026-07-04",
+    "distance": 16078.9,
+    "elevation_gain": 23.0,
+    "id": "19172354658",
+    "moving_time": 4292.0,
+    "name": "PrzedParkrun - Parkrun - ZaParkrun",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-07-04T08:34:08Z",
+    "type": "Run",
+    "year": 2026
   }
 ]

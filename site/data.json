@@ -2276,6 +2276,42 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/19158292961",
       "year": 2026
+    },
+    {
+      "date": "2026-07-03",
+      "hour": 11,
+      "name": "Lunch Ride",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/19166749419",
+      "year": 2026
+    },
+    {
+      "date": "2026-07-03",
+      "hour": 20,
+      "name": "Evening Ride",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/19167240470",
+      "year": 2026
+    },
+    {
+      "date": "2026-07-03",
+      "hour": 22,
+      "name": "Nocna jazda na rowerze",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/19168182337",
+      "year": 2026
+    },
+    {
+      "date": "2026-07-04",
+      "hour": 8,
+      "name": "PrzedParkrun - Parkrun - ZaParkrun",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/19172354658",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -3460,12 +3496,15 @@
         },
         "2026-07-03": {
           "activity_ids": [
-            "19158292961"
+            "19158292961",
+            "19166749419",
+            "19167240470",
+            "19168182337"
           ],
-          "count": 1,
-          "distance": 6450.4,
-          "elevation_gain": 27.0,
-          "moving_time": 1155.0
+          "count": 4,
+          "distance": 44356.899999999994,
+          "elevation_gain": 183.0,
+          "moving_time": 11259.0
         }
       },
       "RockClimbing": {
@@ -4002,6 +4041,15 @@
           "distance": 12508.9,
           "elevation_gain": 16.0,
           "moving_time": 3707.0
+        },
+        "2026-07-04": {
+          "activity_ids": [
+            "19172354658"
+          ],
+          "count": 1,
+          "distance": 16078.9,
+          "elevation_gain": 23.0,
+          "moving_time": 4292.0
         }
       },
       "Walk": {
@@ -4219,7 +4267,7 @@
       }
     }
   },
-  "generated_at": "2026-07-03T16:22:34.151237+00:00",
+  "generated_at": "2026-07-04T15:58:37.004372+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
