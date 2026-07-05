@@ -3339,5 +3339,57 @@
     "start_date_local": "2026-07-04T08:34:08Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-07-04",
+    "distance": 25431.3,
+    "elevation_gain": 93.0,
+    "id": "19181994857",
+    "moving_time": 22782.0,
+    "name": "Spacer w porze lunchu",
+    "raw_activity_type": "Walk",
+    "raw_type": "Walk",
+    "start_date_local": "2026-07-04T12:51:36Z",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-07-05",
+    "distance": 2650.9,
+    "elevation_gain": 3.0,
+    "id": "19186874029",
+    "moving_time": 822.0,
+    "name": "Lunch Ride",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-07-05T11:28:30Z",
+    "type": "Ride",
+    "year": 2026
+  },
+  {
+    "date": "2026-07-05",
+    "distance": 922.3,
+    "elevation_gain": 15.0,
+    "id": "19187579155",
+    "moving_time": 1169.0,
+    "name": "Spacer w porze lunchu",
+    "raw_activity_type": "Walk",
+    "raw_type": "Walk",
+    "start_date_local": "2026-07-05T12:18:23Z",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-07-05",
+    "distance": 6339.5,
+    "elevation_gain": 31.0,
+    "id": "19188857028",
+    "moving_time": 1857.0,
+    "name": "Popo\u0142udniowa jazda na rowerze",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-07-05T13:07:51Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]

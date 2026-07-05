@@ -2312,6 +2312,42 @@
       "type": "Run",
       "url": "https://www.strava.com/activities/19172354658",
       "year": 2026
+    },
+    {
+      "date": "2026-07-04",
+      "hour": 12,
+      "name": "Spacer w porze lunchu",
+      "subtype": "Walk",
+      "type": "Walk",
+      "url": "https://www.strava.com/activities/19181994857",
+      "year": 2026
+    },
+    {
+      "date": "2026-07-05",
+      "hour": 11,
+      "name": "Lunch Ride",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/19186874029",
+      "year": 2026
+    },
+    {
+      "date": "2026-07-05",
+      "hour": 12,
+      "name": "Spacer w porze lunchu",
+      "subtype": "Walk",
+      "type": "Walk",
+      "url": "https://www.strava.com/activities/19187579155",
+      "year": 2026
+    },
+    {
+      "date": "2026-07-05",
+      "hour": 13,
+      "name": "Popo\u0142udniowa jazda na rowerze",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/19188857028",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -3505,6 +3541,16 @@
           "distance": 44356.899999999994,
           "elevation_gain": 183.0,
           "moving_time": 11259.0
+        },
+        "2026-07-05": {
+          "activity_ids": [
+            "19186874029",
+            "19188857028"
+          ],
+          "count": 2,
+          "distance": 8990.4,
+          "elevation_gain": 34.0,
+          "moving_time": 2679.0
         }
       },
       "RockClimbing": {
@@ -4252,6 +4298,24 @@
           "distance": 3432.9,
           "elevation_gain": 3.0,
           "moving_time": 2336.0
+        },
+        "2026-07-04": {
+          "activity_ids": [
+            "19181994857"
+          ],
+          "count": 1,
+          "distance": 25431.3,
+          "elevation_gain": 93.0,
+          "moving_time": 22782.0
+        },
+        "2026-07-05": {
+          "activity_ids": [
+            "19187579155"
+          ],
+          "count": 1,
+          "distance": 922.3,
+          "elevation_gain": 15.0,
+          "moving_time": 1169.0
         }
       },
       "Workout": {
@@ -4267,7 +4331,7 @@
       }
     }
   },
-  "generated_at": "2026-07-04T15:58:37.004372+00:00",
+  "generated_at": "2026-07-05T16:04:11.839220+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
