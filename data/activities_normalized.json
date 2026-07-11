@@ -3417,5 +3417,18 @@
     "start_date_local": "2026-07-09T13:03:22Z",
     "type": "Walk",
     "year": 2026
+  },
+  {
+    "date": "2026-07-11",
+    "distance": 5004.7,
+    "elevation_gain": 2.0,
+    "id": "19264536218",
+    "moving_time": 1242.0,
+    "name": "Parkrun Grodzisk Mazowiecki #408",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-07-11T09:01:13Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
