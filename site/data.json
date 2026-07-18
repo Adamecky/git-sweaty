@@ -2384,6 +2384,33 @@
       "type": "Walk",
       "url": "https://www.strava.com/activities/19283159480",
       "year": 2026
+    },
+    {
+      "date": "2026-07-17",
+      "hour": 19,
+      "name": "Evening Walk",
+      "subtype": "Walk",
+      "type": "Walk",
+      "url": "https://www.strava.com/activities/19352538659",
+      "year": 2026
+    },
+    {
+      "date": "2026-07-17",
+      "hour": 19,
+      "name": "I znowu jakby od zera :(",
+      "subtype": "RockClimbing",
+      "type": "RockClimbing",
+      "url": "https://www.strava.com/activities/19353108702",
+      "year": 2026
+    },
+    {
+      "date": "2026-07-18",
+      "hour": 9,
+      "name": "Parkrun Skierniewice #521",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/19358645134",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -3617,6 +3644,15 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 4432.0
+        },
+        "2026-07-17": {
+          "activity_ids": [
+            "19353108702"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 2627.0
         }
       },
       "Run": {
@@ -4142,6 +4178,15 @@
           "distance": 5004.7,
           "elevation_gain": 2.0,
           "moving_time": 1242.0
+        },
+        "2026-07-18": {
+          "activity_ids": [
+            "19358645134"
+          ],
+          "count": 1,
+          "distance": 4985.0,
+          "elevation_gain": 20.0,
+          "moving_time": 1224.0
         }
       },
       "Walk": {
@@ -4380,6 +4425,15 @@
           "distance": 5562.5,
           "elevation_gain": 12.0,
           "moving_time": 6126.0
+        },
+        "2026-07-17": {
+          "activity_ids": [
+            "19352538659"
+          ],
+          "count": 1,
+          "distance": 1283.9,
+          "elevation_gain": 3.0,
+          "moving_time": 925.0
         }
       },
       "Workout": {
@@ -4395,7 +4449,7 @@
       }
     }
   },
-  "generated_at": "2026-07-17T16:11:37.339848+00:00",
+  "generated_at": "2026-07-18T15:52:52.756161+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
