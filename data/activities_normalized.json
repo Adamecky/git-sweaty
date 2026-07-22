@@ -3534,5 +3534,18 @@
     "start_date_local": "2026-07-21T12:33:15Z",
     "type": "Walk",
     "year": 2026
+  },
+  {
+    "date": "2026-07-22",
+    "distance": 8255.2,
+    "elevation_gain": 8.0,
+    "id": "19413888359",
+    "moving_time": 2385.0,
+    "name": "Polonez, long time no see",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-07-22T09:03:28Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
