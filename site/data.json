@@ -2456,6 +2456,24 @@
       "type": "Run",
       "url": "https://www.strava.com/activities/19413888359",
       "year": 2026
+    },
+    {
+      "date": "2026-07-24",
+      "hour": 7,
+      "name": "Morning Walk",
+      "subtype": "Walk",
+      "type": "Walk",
+      "url": "https://www.strava.com/activities/19441425647",
+      "year": 2026
+    },
+    {
+      "date": "2026-07-24",
+      "hour": 12,
+      "name": "Lunch Hike",
+      "subtype": "Hike",
+      "type": "Hike",
+      "url": "https://www.strava.com/activities/19446942685",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -3476,6 +3494,15 @@
           "distance": 4038.3,
           "elevation_gain": 229.0,
           "moving_time": 3150.0
+        },
+        "2026-07-24": {
+          "activity_ids": [
+            "19446942685"
+          ],
+          "count": 1,
+          "distance": 15106.6,
+          "elevation_gain": 702.0,
+          "moving_time": 15088.0
         }
       },
       "Ride": {
@@ -4524,6 +4551,15 @@
           "distance": 1008.2,
           "elevation_gain": 4.0,
           "moving_time": 623.0
+        },
+        "2026-07-24": {
+          "activity_ids": [
+            "19441425647"
+          ],
+          "count": 1,
+          "distance": 2473.0,
+          "elevation_gain": 3.0,
+          "moving_time": 2216.0
         }
       },
       "Workout": {
@@ -4539,7 +4575,7 @@
       }
     }
   },
-  "generated_at": "2026-07-23T16:23:58.739621+00:00",
+  "generated_at": "2026-07-24T16:33:05.728218+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
