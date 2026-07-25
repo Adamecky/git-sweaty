@@ -2469,7 +2469,7 @@
     {
       "date": "2026-07-24",
       "hour": 12,
-      "name": "Lunch Hike",
+      "name": "Pierwszy krok KGP",
       "subtype": "Hike",
       "type": "Hike",
       "url": "https://www.strava.com/activities/19446942685",
@@ -4575,7 +4575,7 @@
       }
     }
   },
-  "generated_at": "2026-07-24T16:33:05.728218+00:00",
+  "generated_at": "2026-07-25T16:00:59.150439+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
