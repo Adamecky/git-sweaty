@@ -2519,6 +2519,15 @@
       "type": "Walk",
       "url": "https://www.strava.com/activities/19491092504",
       "year": 2026
+    },
+    {
+      "date": "2026-07-28",
+      "hour": 11,
+      "name": "Ornak i jaskinie",
+      "subtype": "Hike",
+      "type": "Hike",
+      "url": "https://www.strava.com/activities/19503555904",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -3566,6 +3575,15 @@
           "distance": 31061.6,
           "elevation_gain": 2067.0,
           "moving_time": 31318.0
+        },
+        "2026-07-28": {
+          "activity_ids": [
+            "19503555904"
+          ],
+          "count": 1,
+          "distance": 15783.3,
+          "elevation_gain": 558.0,
+          "moving_time": 18420.0
         }
       },
       "Ride": {
@@ -4657,7 +4675,7 @@
       }
     }
   },
-  "generated_at": "2026-07-28T16:38:25.238932+00:00",
+  "generated_at": "2026-07-29T16:17:52.099316+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
