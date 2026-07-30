@@ -2528,6 +2528,15 @@
       "type": "Hike",
       "url": "https://www.strava.com/activities/19503555904",
       "year": 2026
+    },
+    {
+      "date": "2026-07-29",
+      "hour": 4,
+      "name": "Symulator stania w kolejce - Rysy",
+      "subtype": "Hike",
+      "type": "Hike",
+      "url": "https://www.strava.com/activities/19520286521",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -3584,6 +3593,15 @@
           "distance": 15783.3,
           "elevation_gain": 558.0,
           "moving_time": 18420.0
+        },
+        "2026-07-29": {
+          "activity_ids": [
+            "19520286521"
+          ],
+          "count": 1,
+          "distance": 31836.8,
+          "elevation_gain": 1888.0,
+          "moving_time": 42985.0
         }
       },
       "Ride": {
@@ -4675,7 +4693,7 @@
       }
     }
   },
-  "generated_at": "2026-07-29T16:17:52.099316+00:00",
+  "generated_at": "2026-07-30T16:23:48.277304+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
