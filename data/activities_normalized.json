@@ -3664,5 +3664,44 @@
     "start_date_local": "2026-07-29T04:52:11Z",
     "type": "Hike",
     "year": 2026
+  },
+  {
+    "date": "2026-07-30",
+    "distance": 7762.6,
+    "elevation_gain": 230.0,
+    "id": "19533688622",
+    "moving_time": 7183.0,
+    "name": "Popo\u0142udniowy spacer",
+    "raw_activity_type": "Walk",
+    "raw_type": "Walk",
+    "start_date_local": "2026-07-30T17:48:10Z",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-07-31",
+    "distance": 15298.4,
+    "elevation_gain": 870.0,
+    "id": "19541378202",
+    "moving_time": 17043.0,
+    "name": "Poranna w\u0119dr\u00f3wka",
+    "raw_activity_type": "Hike",
+    "raw_type": "Hike",
+    "start_date_local": "2026-07-31T07:04:38Z",
+    "type": "Hike",
+    "year": 2026
+  },
+  {
+    "date": "2026-07-31",
+    "distance": 7547.1,
+    "elevation_gain": 199.0,
+    "id": "19544460048",
+    "moving_time": 6438.0,
+    "name": "Popo\u0142udniowy spacer",
+    "raw_activity_type": "Walk",
+    "raw_type": "Walk",
+    "start_date_local": "2026-07-31T13:47:05Z",
+    "type": "Walk",
+    "year": 2026
   }
 ]
