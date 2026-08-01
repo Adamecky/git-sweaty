@@ -2550,7 +2550,7 @@
     {
       "date": "2026-07-31",
       "hour": 7,
-      "name": "Poranna w\u0119dr\u00f3wka",
+      "name": "Hala G\u0105sienicowa na do widzenia",
       "subtype": "Hike",
       "type": "Hike",
       "url": "https://www.strava.com/activities/19541378202",
@@ -2563,6 +2563,15 @@
       "subtype": "Walk",
       "type": "Walk",
       "url": "https://www.strava.com/activities/19544460048",
+      "year": 2026
+    },
+    {
+      "date": "2026-08-01",
+      "hour": 9,
+      "name": "Parkrun Puszcza Niepo\u0142omicka #269",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/19551950935",
       "year": 2026
     }
   ],
@@ -4421,6 +4430,15 @@
           "distance": 8255.2,
           "elevation_gain": 8.0,
           "moving_time": 2385.0
+        },
+        "2026-08-01": {
+          "activity_ids": [
+            "19551950935"
+          ],
+          "count": 1,
+          "distance": 6858.6,
+          "elevation_gain": 36.0,
+          "moving_time": 1998.0
         }
       },
       "Walk": {
@@ -4747,7 +4765,7 @@
       }
     }
   },
-  "generated_at": "2026-07-31T16:42:21.095428+00:00",
+  "generated_at": "2026-08-01T15:58:14.447989+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
