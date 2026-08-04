@@ -3729,5 +3729,18 @@
     "start_date_local": "2026-08-02T11:14:09Z",
     "type": "Walk",
     "year": 2026
+  },
+  {
+    "date": "2026-08-04",
+    "distance": 14814.4,
+    "elevation_gain": 104.0,
+    "id": "19595769500",
+    "moving_time": 2336.0,
+    "name": "Jazda na rowerze w porze lunchu",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-08-04T12:32:56Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]

@@ -2582,6 +2582,15 @@
       "type": "Walk",
       "url": "https://www.strava.com/activities/19567922078",
       "year": 2026
+    },
+    {
+      "date": "2026-08-04",
+      "hour": 12,
+      "name": "Jazda na rowerze w porze lunchu",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/19595769500",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -3840,6 +3849,15 @@
           "distance": 19816.5,
           "elevation_gain": 50.0,
           "moving_time": 5205.0
+        },
+        "2026-08-04": {
+          "activity_ids": [
+            "19595769500"
+          ],
+          "count": 1,
+          "distance": 14814.4,
+          "elevation_gain": 104.0,
+          "moving_time": 2336.0
         }
       },
       "RockClimbing": {
@@ -4783,7 +4801,7 @@
       }
     }
   },
-  "generated_at": "2026-08-03T17:06:51.969071+00:00",
+  "generated_at": "2026-08-04T16:49:16.471674+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
