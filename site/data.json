@@ -2591,6 +2591,24 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/19595769500",
       "year": 2026
+    },
+    {
+      "date": "2026-08-04",
+      "hour": 22,
+      "name": "Nocna jazda na rowerze",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/19603227515",
+      "year": 2026
+    },
+    {
+      "date": "2026-08-05",
+      "hour": 9,
+      "name": "Obiecuj\u0119 ju\u017c nie narzeka\u0107 na zim\u0119 \ud83e\udd75",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/19609079887",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -3852,12 +3870,13 @@
         },
         "2026-08-04": {
           "activity_ids": [
-            "19595769500"
+            "19595769500",
+            "19603227515"
           ],
-          "count": 1,
-          "distance": 14814.4,
-          "elevation_gain": 104.0,
-          "moving_time": 2336.0
+          "count": 2,
+          "distance": 27340.699999999997,
+          "elevation_gain": 157.0,
+          "moving_time": 4102.0
         }
       },
       "RockClimbing": {
@@ -4466,6 +4485,15 @@
           "distance": 6858.6,
           "elevation_gain": 36.0,
           "moving_time": 1998.0
+        },
+        "2026-08-05": {
+          "activity_ids": [
+            "19609079887"
+          ],
+          "count": 1,
+          "distance": 7615.2,
+          "elevation_gain": 5.0,
+          "moving_time": 2590.0
         }
       },
       "Walk": {
@@ -4801,7 +4829,7 @@
       }
     }
   },
-  "generated_at": "2026-08-04T16:49:16.471674+00:00",
+  "generated_at": "2026-08-05T16:28:46.106475+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",

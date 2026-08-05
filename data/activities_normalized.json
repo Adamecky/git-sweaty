@@ -3742,5 +3742,31 @@
     "start_date_local": "2026-08-04T12:32:56Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-08-04",
+    "distance": 12526.3,
+    "elevation_gain": 53.0,
+    "id": "19603227515",
+    "moving_time": 1766.0,
+    "name": "Nocna jazda na rowerze",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-08-04T22:04:28Z",
+    "type": "Ride",
+    "year": 2026
+  },
+  {
+    "date": "2026-08-05",
+    "distance": 7615.2,
+    "elevation_gain": 5.0,
+    "id": "19609079887",
+    "moving_time": 2590.0,
+    "name": "Obiecuj\u0119 ju\u017c nie narzeka\u0107 na zim\u0119 \ud83e\udd75",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-08-05T09:48:54Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
