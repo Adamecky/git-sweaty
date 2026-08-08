@@ -2609,6 +2609,24 @@
       "type": "Run",
       "url": "https://www.strava.com/activities/19609079887",
       "year": 2026
+    },
+    {
+      "date": "2026-08-07",
+      "hour": 22,
+      "name": "Jak przyjemnie",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/19646030554",
+      "year": 2026
+    },
+    {
+      "date": "2026-08-08",
+      "hour": 9,
+      "name": "Parkrun Park Miejski, \u0141owicz #202",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/19649762595",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -4494,6 +4512,24 @@
           "distance": 7615.2,
           "elevation_gain": 5.0,
           "moving_time": 2590.0
+        },
+        "2026-08-07": {
+          "activity_ids": [
+            "19646030554"
+          ],
+          "count": 1,
+          "distance": 10453.3,
+          "elevation_gain": 7.0,
+          "moving_time": 3115.0
+        },
+        "2026-08-08": {
+          "activity_ids": [
+            "19649762595"
+          ],
+          "count": 1,
+          "distance": 4974.0,
+          "elevation_gain": 8.0,
+          "moving_time": 1178.0
         }
       },
       "Walk": {
@@ -4829,7 +4865,7 @@
       }
     }
   },
-  "generated_at": "2026-08-07T15:52:35.860910+00:00",
+  "generated_at": "2026-08-08T15:25:26.082614+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",

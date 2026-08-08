@@ -3768,5 +3768,31 @@
     "start_date_local": "2026-08-05T09:48:54Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-08-07",
+    "distance": 10453.3,
+    "elevation_gain": 7.0,
+    "id": "19646030554",
+    "moving_time": 3115.0,
+    "name": "Jak przyjemnie",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-08-07T22:42:47Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-08-08",
+    "distance": 4974.0,
+    "elevation_gain": 8.0,
+    "id": "19649762595",
+    "moving_time": 1178.0,
+    "name": "Parkrun Park Miejski, \u0141owicz #202",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-08-08T09:03:07Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
