@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T15:56:24.902000+00:00",
+  "generated_at": "2026-08-11T15:57:03.989182+00:00",
   "years": {
     "2025": {
       "Hike": {
@@ -1304,6 +1304,15 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 2627.0
+        },
+        "2026-08-11": {
+          "activity_ids": [
+            "19697666638"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 2424.0
         }
       },
       "Run": {
@@ -2230,6 +2239,15 @@
           "distance": 5691.9,
           "elevation_gain": 55.0,
           "moving_time": 4754.0
+        },
+        "2026-08-11": {
+          "activity_ids": [
+            "19697058655"
+          ],
+          "count": 1,
+          "distance": 1429.8,
+          "elevation_gain": 13.0,
+          "moving_time": 893.0
         }
       },
       "Workout": {
