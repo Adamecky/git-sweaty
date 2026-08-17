@@ -2699,6 +2699,15 @@
       "type": "Walk",
       "url": "https://www.strava.com/activities/19768071519",
       "year": 2026
+    },
+    {
+      "date": "2026-08-16",
+      "hour": 17,
+      "name": "Afternoon Walk",
+      "subtype": "Walk",
+      "type": "Walk",
+      "url": "https://www.strava.com/activities/19768776977",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -4980,12 +4989,13 @@
         },
         "2026-08-16": {
           "activity_ids": [
-            "19768071519"
+            "19768071519",
+            "19768776977"
           ],
-          "count": 1,
-          "distance": 4179.2,
-          "elevation_gain": 25.0,
-          "moving_time": 3370.0
+          "count": 2,
+          "distance": 6062.0,
+          "elevation_gain": 38.0,
+          "moving_time": 5063.0
         }
       },
       "Workout": {
@@ -5001,7 +5011,7 @@
       }
     }
   },
-  "generated_at": "2026-08-16T15:17:21.666854+00:00",
+  "generated_at": "2026-08-17T15:20:52.961566+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
