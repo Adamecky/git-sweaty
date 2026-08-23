@@ -2744,6 +2744,24 @@
       "type": "Run",
       "url": "https://www.strava.com/activities/19846209289",
       "year": 2026
+    },
+    {
+      "date": "2026-08-22",
+      "hour": 17,
+      "name": "Afternoon Walk",
+      "subtype": "Walk",
+      "type": "Walk",
+      "url": "https://www.strava.com/activities/19856728823",
+      "year": 2026
+    },
+    {
+      "date": "2026-08-23",
+      "hour": 12,
+      "name": "Lunch Walk",
+      "subtype": "Walk",
+      "type": "Walk",
+      "url": "https://www.strava.com/activities/19864088433",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -5052,6 +5070,24 @@
           "distance": 4291.6,
           "elevation_gain": 19.0,
           "moving_time": 6280.0
+        },
+        "2026-08-22": {
+          "activity_ids": [
+            "19856728823"
+          ],
+          "count": 1,
+          "distance": 20291.9,
+          "elevation_gain": 56.0,
+          "moving_time": 13666.0
+        },
+        "2026-08-23": {
+          "activity_ids": [
+            "19864088433"
+          ],
+          "count": 1,
+          "distance": 5603.8,
+          "elevation_gain": 22.0,
+          "moving_time": 5756.0
         }
       },
       "Workout": {
@@ -5067,7 +5103,7 @@
       }
     }
   },
-  "generated_at": "2026-08-22T15:16:19.151528+00:00",
+  "generated_at": "2026-08-23T15:17:46.861789+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
