@@ -4002,5 +4002,18 @@
     "start_date_local": "2026-08-30T11:57:22Z",
     "type": "RockClimbing",
     "year": 2026
+  },
+  {
+    "date": "2026-09-01",
+    "distance": 7411.8,
+    "elevation_gain": 24.0,
+    "id": "19987659702",
+    "moving_time": 2358.0,
+    "name": "Przymusowa pauza i zapomnia\u0142em jak si\u0119 biega",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-09-01T11:41:58Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
