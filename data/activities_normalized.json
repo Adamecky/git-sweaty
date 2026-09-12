@@ -4054,5 +4054,18 @@
     "start_date_local": "2026-09-06T14:58:51Z",
     "type": "Walk",
     "year": 2026
+  },
+  {
+    "date": "2026-09-12",
+    "distance": 5040.8,
+    "elevation_gain": 7.0,
+    "id": "20139236159",
+    "moving_time": 1268.0,
+    "name": "Parkrun Warszawa Br\u00f3dno #562",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-09-12T09:08:19Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
