@@ -4067,5 +4067,18 @@
     "start_date_local": "2026-09-12T09:08:19Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-09-12",
+    "distance": 10064.4,
+    "elevation_gain": 25.0,
+    "id": "20148037224",
+    "moving_time": 4036.0,
+    "name": "Bieg przez most z Monik\u0105",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-09-12T18:31:31Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
