@@ -4145,5 +4145,44 @@
     "start_date_local": "2026-09-27T10:00:23Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-10-01",
+    "distance": 1400.9,
+    "elevation_gain": 3.0,
+    "id": "20406459425",
+    "moving_time": 493.0,
+    "name": "Na stadion",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-10-01T14:49:33Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-01",
+    "distance": 9606.4,
+    "elevation_gain": 0.0,
+    "id": "20407113613",
+    "moving_time": 3117.0,
+    "name": "Test Coopera",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-10-01T14:59:13Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-01",
+    "distance": 1397.7,
+    "elevation_gain": 4.0,
+    "id": "20407245756",
+    "moving_time": 481.0,
+    "name": "Powr\u00f3t",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-10-01T15:59:22Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
