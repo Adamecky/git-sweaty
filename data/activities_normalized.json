@@ -4184,5 +4184,44 @@
     "start_date_local": "2026-10-01T15:59:22Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-10-03",
+    "distance": 1322.4,
+    "elevation_gain": 3.0,
+    "id": "20429474445",
+    "moving_time": 460.0,
+    "name": "Na parkrun",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-10-03T08:54:27Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-03",
+    "distance": 8375.4,
+    "elevation_gain": 11.0,
+    "id": "20429474642",
+    "moving_time": 3037.0,
+    "name": "Parkrun Warszawa-Br\u00f3dno #565",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-10-03T09:25:18Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-03",
+    "distance": 51429.1,
+    "elevation_gain": 243.0,
+    "id": "20436332572",
+    "moving_time": 11433.0,
+    "name": "Pojechali\u015bmy zobaczy\u0107 wielk\u0105 truskawk\u0119",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-10-03T13:01:52Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
