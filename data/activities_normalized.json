@@ -4223,5 +4223,18 @@
     "start_date_local": "2026-10-03T13:01:52Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-10-04",
+    "distance": 17652.7,
+    "elevation_gain": 138.0,
+    "id": "20448495439",
+    "moving_time": 18889.0,
+    "name": "Grzyby, du\u017co",
+    "raw_activity_type": "Walk",
+    "raw_type": "Walk",
+    "start_date_local": "2026-10-04T09:46:20Z",
+    "type": "Walk",
+    "year": 2026
   }
 ]

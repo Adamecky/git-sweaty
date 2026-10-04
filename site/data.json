@@ -2924,6 +2924,15 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/20436332572",
       "year": 2026
+    },
+    {
+      "date": "2026-10-04",
+      "hour": 9,
+      "name": "Grzyby, du\u017co",
+      "subtype": "Walk",
+      "type": "Walk",
+      "url": "https://www.strava.com/activities/20448495439",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -5380,6 +5389,15 @@
           "distance": 3706.6,
           "elevation_gain": 12.0,
           "moving_time": 3751.0
+        },
+        "2026-10-04": {
+          "activity_ids": [
+            "20448495439"
+          ],
+          "count": 1,
+          "distance": 17652.7,
+          "elevation_gain": 138.0,
+          "moving_time": 18889.0
         }
       },
       "Workout": {
@@ -5395,7 +5413,7 @@
       }
     }
   },
-  "generated_at": "2026-10-03T18:30:49.017236+00:00",
+  "generated_at": "2026-10-04T18:30:59.715901+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
