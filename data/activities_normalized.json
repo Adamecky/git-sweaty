@@ -4262,5 +4262,18 @@
     "start_date_local": "2026-10-06T19:55:33Z",
     "type": "Walk",
     "year": 2026
+  },
+  {
+    "date": "2026-10-08",
+    "distance": 11434.8,
+    "elevation_gain": 4.0,
+    "id": "20504519882",
+    "moving_time": 3479.0,
+    "name": "Na wsi te\u017c czasem fajnie",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-10-08T17:23:32Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
