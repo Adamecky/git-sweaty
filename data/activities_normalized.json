@@ -4275,5 +4275,18 @@
     "start_date_local": "2026-10-08T17:23:32Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-10-10",
+    "distance": 11915.7,
+    "elevation_gain": 16.0,
+    "id": "20523987580",
+    "moving_time": 4076.0,
+    "name": "Parkrun Warszawa-Br\u00f3dno #566",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-10-10T08:29:46Z",
+    "type": "Run",
+    "year": 2026
   }
 ]

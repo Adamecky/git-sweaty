@@ -2960,6 +2960,15 @@
       "type": "Run",
       "url": "https://www.strava.com/activities/20504519882",
       "year": 2026
+    },
+    {
+      "date": "2026-10-10",
+      "hour": 8,
+      "name": "Parkrun Warszawa-Br\u00f3dno #566",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/20523987580",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -5031,6 +5040,15 @@
           "distance": 11434.8,
           "elevation_gain": 4.0,
           "moving_time": 3479.0
+        },
+        "2026-10-10": {
+          "activity_ids": [
+            "20523987580"
+          ],
+          "count": 1,
+          "distance": 11915.7,
+          "elevation_gain": 16.0,
+          "moving_time": 4076.0
         }
       },
       "Walk": {
@@ -5467,7 +5485,7 @@
       }
     }
   },
-  "generated_at": "2026-10-09T19:59:08.098895+00:00",
+  "generated_at": "2026-10-10T19:06:40.044209+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
