@@ -4301,5 +4301,18 @@
     "start_date_local": "2026-10-11T08:21:43Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-10-13",
+    "distance": 9516.3,
+    "elevation_gain": 4.0,
+    "id": "20564521496",
+    "moving_time": 3139.0,
+    "name": "Czas si\u0119 rozrusza\u0107",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-10-13T09:56:41Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
