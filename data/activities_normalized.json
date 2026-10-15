@@ -4327,5 +4327,18 @@
     "start_date_local": "2026-10-14T08:20:56Z",
     "type": "Walk",
     "year": 2026
+  },
+  {
+    "date": "2026-10-15",
+    "distance": 12644.1,
+    "elevation_gain": 15.0,
+    "id": "20592068562",
+    "moving_time": 3993.0,
+    "name": "Gdzie kilometr\u00f3wek sze\u015b\u0107...",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-10-15T08:45:18Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
