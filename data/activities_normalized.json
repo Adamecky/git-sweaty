@@ -4340,5 +4340,44 @@
     "start_date_local": "2026-10-15T08:45:18Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-10-16",
+    "distance": 4087.1,
+    "elevation_gain": 16.0,
+    "id": "20613531854",
+    "moving_time": 4036.0,
+    "name": "Popo\u0142udniowy spacer",
+    "raw_activity_type": "Walk",
+    "raw_type": "Walk",
+    "start_date_local": "2026-10-16T17:36:35Z",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-17",
+    "distance": 10327.9,
+    "elevation_gain": 107.0,
+    "id": "20617194207",
+    "moving_time": 3147.0,
+    "name": "Parkrun Park Modrzewie #289",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-10-17T08:43:31Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-17",
+    "distance": 7250.5,
+    "elevation_gain": 88.0,
+    "id": "20622918250",
+    "moving_time": 7401.0,
+    "name": "Popo\u0142udniowy spacer",
+    "raw_activity_type": "Walk",
+    "raw_type": "Walk",
+    "start_date_local": "2026-10-17T13:59:02Z",
+    "type": "Walk",
+    "year": 2026
   }
 ]
