@@ -4379,5 +4379,44 @@
     "start_date_local": "2026-10-17T13:59:02Z",
     "type": "Walk",
     "year": 2026
+  },
+  {
+    "date": "2026-10-18",
+    "distance": 15733.5,
+    "elevation_gain": 13.0,
+    "id": "20629911914",
+    "moving_time": 5347.0,
+    "name": "Pobudka idealna",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-10-18T07:15:08Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-18",
+    "distance": 13074.3,
+    "elevation_gain": 108.0,
+    "id": "20634056725",
+    "moving_time": 11254.0,
+    "name": "Poranny spacer",
+    "raw_activity_type": "Walk",
+    "raw_type": "Walk",
+    "start_date_local": "2026-10-18T10:09:10Z",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-18",
+    "distance": 7818.9,
+    "elevation_gain": 101.0,
+    "id": "20636360887",
+    "moving_time": 7459.0,
+    "name": "Popo\u0142udniowy spacer",
+    "raw_activity_type": "Walk",
+    "raw_type": "Walk",
+    "start_date_local": "2026-10-18T14:11:27Z",
+    "type": "Walk",
+    "year": 2026
   }
 ]
