@@ -3068,6 +3068,15 @@
       "type": "Walk",
       "url": "https://www.strava.com/activities/20676872692",
       "year": 2026
+    },
+    {
+      "date": "2026-10-22",
+      "hour": 19,
+      "name": "Znowu si\u0119 cz\u0142owiek zakr\u0119ci\u0142",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/20692490417",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -5193,6 +5202,15 @@
           "distance": 15733.5,
           "elevation_gain": 13.0,
           "moving_time": 5347.0
+        },
+        "2026-10-22": {
+          "activity_ids": [
+            "20692490417"
+          ],
+          "count": 1,
+          "distance": 11022.0,
+          "elevation_gain": 5.0,
+          "moving_time": 3199.0
         }
       },
       "Walk": {
@@ -5675,7 +5693,7 @@
       }
     }
   },
-  "generated_at": "2026-10-22T19:01:52.113848+00:00",
+  "generated_at": "2026-10-23T18:51:45.470770+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
