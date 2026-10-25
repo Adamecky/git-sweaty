@@ -3077,6 +3077,24 @@
       "type": "Run",
       "url": "https://www.strava.com/activities/20692490417",
       "year": 2026
+    },
+    {
+      "date": "2026-10-24",
+      "hour": 20,
+      "name": "Parkrunu pobiec nie mog\u0142em:(",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/20717208802",
+      "year": 2026
+    },
+    {
+      "date": "2026-10-25",
+      "hour": 12,
+      "name": "Turystycznie",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/20726927863",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -5211,6 +5229,24 @@
           "distance": 11022.0,
           "elevation_gain": 5.0,
           "moving_time": 3199.0
+        },
+        "2026-10-24": {
+          "activity_ids": [
+            "20717208802"
+          ],
+          "count": 1,
+          "distance": 10016.0,
+          "elevation_gain": 7.0,
+          "moving_time": 2897.0
+        },
+        "2026-10-25": {
+          "activity_ids": [
+            "20726927863"
+          ],
+          "count": 1,
+          "distance": 18129.0,
+          "elevation_gain": 106.0,
+          "moving_time": 5923.0
         }
       },
       "Walk": {
@@ -5693,7 +5729,7 @@
       }
     }
   },
-  "generated_at": "2026-10-24T17:47:34.269407+00:00",
+  "generated_at": "2026-10-25T18:04:14.426965+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",

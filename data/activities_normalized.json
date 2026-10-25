@@ -4444,5 +4444,31 @@
     "start_date_local": "2026-10-22T19:56:00Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-10-24",
+    "distance": 10016.0,
+    "elevation_gain": 7.0,
+    "id": "20717208802",
+    "moving_time": 2897.0,
+    "name": "Parkrunu pobiec nie mog\u0142em:(",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-10-24T20:57:13Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-25",
+    "distance": 18129.0,
+    "elevation_gain": 106.0,
+    "id": "20726927863",
+    "moving_time": 5923.0,
+    "name": "Turystycznie",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-10-25T12:52:41Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
