@@ -4470,5 +4470,18 @@
     "start_date_local": "2026-10-25T12:52:41Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-10-26",
+    "distance": 730.0,
+    "elevation_gain": 0.0,
+    "id": "20736828681",
+    "moving_time": 505.0,
+    "name": "Popo\u0142udniowy spacer",
+    "raw_activity_type": "Walk",
+    "raw_type": "Walk",
+    "start_date_local": "2026-10-26T13:10:17Z",
+    "type": "Walk",
+    "year": 2026
   }
 ]
