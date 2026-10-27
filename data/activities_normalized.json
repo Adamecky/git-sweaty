@@ -4483,5 +4483,31 @@
     "start_date_local": "2026-10-26T13:10:17Z",
     "type": "Walk",
     "year": 2026
+  },
+  {
+    "date": "2026-10-27",
+    "distance": 12574.0,
+    "elevation_gain": 0.0,
+    "id": "20747950530",
+    "moving_time": 4156.0,
+    "name": "Nie zabierajcie tej pogody \ud83e\udd7a",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-10-27T09:18:19Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-27",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "20748323945",
+    "moving_time": 1007.0,
+    "name": "Poranny trening",
+    "raw_activity_type": "Workout",
+    "raw_type": "Workout",
+    "start_date_local": "2026-10-27T10:49:44Z",
+    "type": "Workout",
+    "year": 2026
   }
 ]

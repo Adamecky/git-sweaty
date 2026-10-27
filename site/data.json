@@ -3104,6 +3104,24 @@
       "type": "Walk",
       "url": "https://www.strava.com/activities/20736828681",
       "year": 2026
+    },
+    {
+      "date": "2026-10-27",
+      "hour": 9,
+      "name": "Nie zabierajcie tej pogody \ud83e\udd7a",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/20747950530",
+      "year": 2026
+    },
+    {
+      "date": "2026-10-27",
+      "hour": 10,
+      "name": "Poranny trening",
+      "subtype": "Workout",
+      "type": "Workout",
+      "url": "https://www.strava.com/activities/20748323945",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -5256,6 +5274,15 @@
           "distance": 18129.0,
           "elevation_gain": 106.0,
           "moving_time": 5923.0
+        },
+        "2026-10-27": {
+          "activity_ids": [
+            "20747950530"
+          ],
+          "count": 1,
+          "distance": 12574.0,
+          "elevation_gain": 0.0,
+          "moving_time": 4156.0
         }
       },
       "Walk": {
@@ -5743,11 +5770,20 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 333.0
+        },
+        "2026-10-27": {
+          "activity_ids": [
+            "20748323945"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 1007.0
         }
       }
     }
   },
-  "generated_at": "2026-10-26T20:17:04.087103+00:00",
+  "generated_at": "2026-10-27T19:47:57.821969+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
