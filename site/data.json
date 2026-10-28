@@ -3122,6 +3122,15 @@
       "type": "Workout",
       "url": "https://www.strava.com/activities/20748323945",
       "year": 2026
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 12,
+      "name": "Spacer w porze lunchu",
+      "subtype": "Walk",
+      "type": "Walk",
+      "url": "https://www.strava.com/activities/20764543484",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -5759,6 +5768,15 @@
           "distance": 730.0,
           "elevation_gain": 0.0,
           "moving_time": 505.0
+        },
+        "2026-10-28": {
+          "activity_ids": [
+            "20764543484"
+          ],
+          "count": 1,
+          "distance": 3053.0,
+          "elevation_gain": 0.0,
+          "moving_time": 2019.0
         }
       },
       "Workout": {
@@ -5783,7 +5801,7 @@
       }
     }
   },
-  "generated_at": "2026-10-27T19:47:57.821969+00:00",
+  "generated_at": "2026-10-28T20:02:18.119733+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
