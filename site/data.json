@@ -3239,6 +3239,15 @@
       "type": "Run",
       "url": "https://www.strava.com/activities/20845519816",
       "year": 2026
+    },
+    {
+      "date": "2026-11-05",
+      "hour": 19,
+      "name": "Podbiegi",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/20874318537",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -5438,6 +5447,15 @@
           "distance": 10381.0,
           "elevation_gain": 2.0,
           "moving_time": 3455.0
+        },
+        "2026-11-05": {
+          "activity_ids": [
+            "20874318537"
+          ],
+          "count": 1,
+          "distance": 10199.0,
+          "elevation_gain": 100.0,
+          "moving_time": 3313.0
         }
       },
       "Walk": {
@@ -5993,7 +6011,7 @@
       }
     }
   },
-  "generated_at": "2026-11-04T21:01:48.615521+00:00",
+  "generated_at": "2026-11-05T21:18:56.069008+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
