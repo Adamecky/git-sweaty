@@ -3248,6 +3248,24 @@
       "type": "Run",
       "url": "https://www.strava.com/activities/20874318537",
       "year": 2026
+    },
+    {
+      "date": "2026-11-07",
+      "hour": 8,
+      "name": "Parkrun Lasek Miejski #122",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/20891218877",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-07",
+      "hour": 15,
+      "name": "Popo\u0142udniowy spacer",
+      "subtype": "Walk",
+      "type": "Walk",
+      "url": "https://www.strava.com/activities/20896690549",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -5456,6 +5474,15 @@
           "distance": 10199.0,
           "elevation_gain": 100.0,
           "moving_time": 3313.0
+        },
+        "2026-11-07": {
+          "activity_ids": [
+            "20891218877"
+          ],
+          "count": 1,
+          "distance": 11461.0,
+          "elevation_gain": 43.0,
+          "moving_time": 3602.0
         }
       },
       "Walk": {
@@ -5969,6 +5996,15 @@
           "distance": 3480.0,
           "elevation_gain": 0.0,
           "moving_time": 2205.0
+        },
+        "2026-11-07": {
+          "activity_ids": [
+            "20896690549"
+          ],
+          "count": 1,
+          "distance": 978.0,
+          "elevation_gain": 4.0,
+          "moving_time": 674.0
         }
       },
       "Workout": {
@@ -6011,7 +6047,7 @@
       }
     }
   },
-  "generated_at": "2026-11-06T20:41:01.818399+00:00",
+  "generated_at": "2026-11-07T19:14:51.479011+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
