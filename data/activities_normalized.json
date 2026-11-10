@@ -4685,7 +4685,7 @@
     "elevation_gain": 100.0,
     "id": "20874318537",
     "moving_time": 3313.0,
-    "name": "Podbiegi",
+    "name": "Podbiegi Dewajtis",
     "raw_activity_type": "Run",
     "raw_type": "Run",
     "start_date_local": "2026-11-05T19:45:34Z",
@@ -4755,6 +4755,19 @@
     "raw_type": "Walk",
     "start_date_local": "2026-11-08T13:38:35Z",
     "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-10",
+    "distance": 8471.0,
+    "elevation_gain": 126.0,
+    "id": "20930211173",
+    "moving_time": 2864.0,
+    "name": "Podbiegi Dewajtis vol. 2",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-11-10T09:11:39Z",
+    "type": "Run",
     "year": 2026
   }
 ]
