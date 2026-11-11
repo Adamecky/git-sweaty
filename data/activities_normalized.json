@@ -4769,5 +4769,18 @@
     "start_date_local": "2026-11-10T09:11:39Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-11-11",
+    "distance": 10070.0,
+    "elevation_gain": 21.0,
+    "id": "20946106073",
+    "moving_time": 3651.0,
+    "name": "Bieg Niepodleg\u0142o\u015bci ze znajomymi",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-11-11T12:32:37Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
