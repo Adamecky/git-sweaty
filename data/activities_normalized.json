@@ -4795,5 +4795,18 @@
     "start_date_local": "2026-11-12T09:10:16Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-11-14",
+    "distance": 11478.0,
+    "elevation_gain": 8.0,
+    "id": "20980435474",
+    "moving_time": 3419.0,
+    "name": "Parkrun Pole Mokotowskie #354",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-11-14T08:39:39Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
