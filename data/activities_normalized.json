@@ -4847,5 +4847,18 @@
     "start_date_local": "2026-11-16T17:42:51Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-11-17",
+    "distance": 10199.0,
+    "elevation_gain": 9.0,
+    "id": "21022701903",
+    "moving_time": 3304.0,
+    "name": "Popo\u0142udniowe bieganie",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-11-17T15:41:43Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
