@@ -3365,6 +3365,42 @@
       "type": "Run",
       "url": "https://www.strava.com/activities/21022701903",
       "year": 2026
+    },
+    {
+      "date": "2026-11-19",
+      "hour": 19,
+      "name": "Wieczorne bieganie",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/21050128089",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-19",
+      "hour": 18,
+      "name": "Wieczorne bieganie",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/21050128381",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-19",
+      "hour": 21,
+      "name": "Nocny trening",
+      "subtype": "Workout",
+      "type": "Workout",
+      "url": "https://www.strava.com/activities/21051042097",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-19",
+      "hour": 20,
+      "name": "Wieczorne bieganie",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/21051042109",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -5645,6 +5681,17 @@
           "distance": 10199.0,
           "elevation_gain": 9.0,
           "moving_time": 3304.0
+        },
+        "2026-11-19": {
+          "activity_ids": [
+            "21050128089",
+            "21050128381",
+            "21051042109"
+          ],
+          "count": 3,
+          "distance": 9016.0,
+          "elevation_gain": 5.0,
+          "moving_time": 2901.0
         }
       },
       "Walk": {
@@ -6235,11 +6282,20 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 879.0
+        },
+        "2026-11-19": {
+          "activity_ids": [
+            "21051042097"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 588.0
         }
       }
     }
   },
-  "generated_at": "2026-11-18T22:27:48.363383+00:00",
+  "generated_at": "2026-11-19T22:32:53.596612+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
