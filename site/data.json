@@ -3401,6 +3401,24 @@
       "type": "Run",
       "url": "https://www.strava.com/activities/21051042109",
       "year": 2026
+    },
+    {
+      "date": "2026-11-21",
+      "hour": 8,
+      "name": "Parkrun Warszawa- Br\u00f3dno #572",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/21067295036",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-21",
+      "hour": 10,
+      "name": "Poranny trening",
+      "subtype": "Workout",
+      "type": "Workout",
+      "url": "https://www.strava.com/activities/21067601512",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -5692,6 +5710,15 @@
           "distance": 9016.0,
           "elevation_gain": 5.0,
           "moving_time": 2901.0
+        },
+        "2026-11-21": {
+          "activity_ids": [
+            "21067295036"
+          ],
+          "count": 1,
+          "distance": 12693.0,
+          "elevation_gain": 11.0,
+          "moving_time": 4171.0
         }
       },
       "Walk": {
@@ -6291,11 +6318,20 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 588.0
+        },
+        "2026-11-21": {
+          "activity_ids": [
+            "21067601512"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 611.0
         }
       }
     }
   },
-  "generated_at": "2026-11-20T22:05:47.235316+00:00",
+  "generated_at": "2026-11-21T20:45:23.657630+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/117723693",
   "repo": "Adamecky/git-sweaty",
