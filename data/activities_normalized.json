@@ -4938,5 +4938,31 @@
     "start_date_local": "2026-11-21T10:26:53Z",
     "type": "Workout",
     "year": 2026
+  },
+  {
+    "date": "2026-11-22",
+    "distance": 15746.0,
+    "elevation_gain": 61.0,
+    "id": "21081591441",
+    "moving_time": 4923.0,
+    "name": "Poranne bieganie",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-11-22T10:31:34Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-22",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "21082149067",
+    "moving_time": 723.0,
+    "name": "Trening w porze lunchu",
+    "raw_activity_type": "Workout",
+    "raw_type": "Workout",
+    "start_date_local": "2026-11-22T12:17:10Z",
+    "type": "Workout",
+    "year": 2026
   }
 ]
